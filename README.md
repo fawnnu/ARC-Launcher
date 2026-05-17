@@ -1,7 +1,7 @@
-# Tauri + React + Typescript
+this launcher is UNFINISHED, credit me if used.
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+owner of arc instead opted in for copying my launcher design (via screenshots recreated with ai 1:1)
 
-## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
+heavily disappointed, this was about 3 days of work
