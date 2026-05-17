@@ -1,0 +1,173 @@
+.login {
+  position: fixed;
+  top: 32px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  z-index: 9998;
+}
+
+.login-branding {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-app-name {
+  font-size: 48px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.login-panel {
+  width: 300px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #0a0a0a;
+  border: 1px solid #1a1a1a;
+  border-radius: 12px;
+  margin-right: 60px;
+}
+
+.login-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 13px;
+  color: #e0e0e0;
+  background: #0a0a0a;
+  border: 1px solid #1a1a1a;
+  border-radius: 8px;
+  outline: none;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.login-input:focus {
+  border-color: #333333;
+}
+
+.login-password-wrapper {
+  position: relative;
+}
+
+.login-password-wrapper .login-input {
+  padding-right: 40px;
+}
+
+.login-password-wrapper .login-input::-ms-reveal,
+.login-password-wrapper .login-input::-webkit-credentials-auto-fill-button {
+  display: none;
+}
+
+.login-eye {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #666666;
+  font-size: 16px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  box-shadow: none;
+}
+
+.login-eye:hover {
+  color: #e0e0e0;
+}
+
+.login-remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #888888;
+}
+
+.login-remember input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  accent-color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  border-radius: 3px;
+  box-shadow: none;
+}
+
+.login-button {
+  margin-top: 4px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: inherit;
+  color: #000000;
+  background: #e0e0e0;
+  border: none;
+  border-radius: 8px;
+  box-shadow: none;
+  transition: background 0.15s;
+}
+
+.login-button:hover {
+  background: #ffffff;
+}
+
+.login-button:active {
+  background: #cccccc;
+}
+
+.signing-in {
+  position: fixed;
+  top: 32px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background: transparent;
+  z-index: 9998;
+}
+
+.signing-in-spinner {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #1a1a1a;
+  border-top-color: #e0e0e0;
+  border-radius: 50%;
+  animation: spin-login 0.8s linear infinite;
+}
+
+.signing-in-text {
+  font-size: 13px;
+  color: #666666;
+}
+
+@keyframes spin-login {
+  to {
+    transform: rotate(360deg);
+  }
+}

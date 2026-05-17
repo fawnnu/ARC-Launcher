@@ -1,0 +1,61 @@
+.titlebar {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: #000000;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.titlebar-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 12px;
+}
+
+.titlebar-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #e0e0e0;
+}
+
+.titlebar-meta {
+  font-size: 11px;
+  color: #666666;
+}
+
+.titlebar-buttons {
+  display: flex;
+  height: 100%;
+}
+
+.titlebar-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 100%;
+  border: none;
+  background: transparent;
+  color: #e0e0e0;
+  font-size: 16px;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+}
+
+.titlebar-button:hover {
+  background: #1a1a1a;
+}
+
+.titlebar-button-close:hover {
+  background: #e81123;
+  color: #ffffff;
+}
